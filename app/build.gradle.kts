@@ -70,4 +70,9 @@ dependencies {
     implementation(libs.ktor.serialization.kotlinx.json)
     implementation(libs.ktor.client.cio)
     implementation(libs.ktor.client.logging)
+    //DataStore
+    implementation(libs.datastore)
+    implementation(libs.datastore.preferences)
+    //Navigation
+    implementation(libs.navigation.compose)
 }
